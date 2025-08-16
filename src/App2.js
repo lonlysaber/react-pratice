@@ -1,9 +1,7 @@
 
 import React, { Component } from 'react'
 // let num = 1
-
-
-
+import BackCount  from './App3'
 
 export default class App2 extends Component {
     state = {
@@ -27,6 +25,7 @@ export default class App2 extends Component {
                 <button onClick={() => { this.addNum() }}>累加</button>
                 <button onClick={this.addNum.bind(this)}>累加</button>
                 <button onClick={() => { this.alertNum(this.state.num) }}>alertNum</button>
+                <BackCount/>
             </div>
         )
     }
