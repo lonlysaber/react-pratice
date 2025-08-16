@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react'
 // let num = 1
-import BackCount  from './App3'
+import BackCount  from '../functionComponents/App3'
 
 export default class App2 extends Component {
     state = {
